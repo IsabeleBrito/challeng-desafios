@@ -1,0 +1,94 @@
+*
+{
+    background-color: #e2a555;
+    font-family: "Matemasie", sans-serif;
+    font-weight:400;
+    font-size: 32px;
+    line-height: 150%;
+}    
+
+.logodaalura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+     
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.caixa-direita{
+    height: 90%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto{
+    border: none;
+    color: #542605;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: darkblue; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem{
+    border: none;
+    border-radius: 24px;
+    color: darkblue;
+    margin-top: 20px;
+    width: 400px;
+}   
+
+.mensagem{
+    display: none;
+}
+
+.btn-copiar{
+    display: none;
+}
+
+.btnEncriptar{
+    background-color: burlywood;
+    border: 1px;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+.btnDesencriptar{
+    background-color: burlywood;
+    border: 1px;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btnCopiar{
+    background-color: burlywood;
+    border: 1px;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.observacao{
+    color: darkblue;
+    font-size: 18px;
+}
+

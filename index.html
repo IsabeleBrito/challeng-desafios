@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+  <title>Encriptador de Isabele</title>
+</head>
+
+<body>
+  <header>
+    <img src="/imagens/logo da alura.png" alt="logo da alura">
+  </header>
+  <main>
+    <section>
+      <textarea class="texto" placeholder="Digite seu texto"></textarea>
+
+      <div class="observação">
+        <h6>Apenas letras minúsculas e sem acento.</h6>
+      </div>
+
+      <div class="botoes">
+
+        <button class="btn-encriptar" onclick=" btnEncriptar()">Criptografar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+      </div>
+    </section>
+
+    <section class="caixa-direita">
+      <textarea class="mensagem" cols="20" rows="10"></textarea>
+      <img class="imagem-de-boneco" src="/imagens/1.png" alt="imagem de Boneco">
+      <button onclick="copiar()" class="btn-copiar">Copiar</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+
+  </main>
+  <footer>Isabele Brito</footer>
+
+</body>
+
+</html>
